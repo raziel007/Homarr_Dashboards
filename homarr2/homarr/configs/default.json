@@ -1,0 +1,1306 @@
+{
+  "schemaVersion": 1,
+  "configProperties": {
+    "name": "default"
+  },
+  "categories": [],
+  "widgets": [
+    {
+      "id": "b365a183-9f56-499e-b992-da8cd299d56b",
+      "properties": {
+        "display24HourFormat": true
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 10,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "type": "date"
+    },
+    {
+      "id": "e6fcb6cd-23f2-4079-9df4-dfde6127350a",
+      "properties": {},
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 10,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        }
+      },
+      "type": "calendar"
+    },
+    {
+      "id": "0f7733fd-09f0-4e97-a1b4-92566257028e",
+      "type": "bookmark",
+      "properties": {
+        "name": "",
+        "items": [],
+        "layout": "autoGrid"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "e02e7248-8610-4b4f-b64f-646f594db8c9",
+      "type": "rss",
+      "properties": {
+        "rssFeedUrl": [
+          "https://www.wired.com/rss/",
+          "http://news.google.com/news?cf=all&hl=en&pz=1&ned=us&topic=h&num=3&output=rss"
+        ],
+        "refreshInterval": 30,
+        "dangerousAllowSanitizedItemContent": true,
+        "textLinesClamp": 5
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "55fe4ce9-b973-4b65-9d49-cdded882edaf",
+      "type": "weather",
+      "properties": {
+        "displayInFahrenheit": false,
+        "displayCityName": false,
+        "location": {
+          "name": "Paris",
+          "latitude": 48.85341,
+          "longitude": 2.3488
+        }
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 10,
+            "y": 3
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "f9fd641f-601f-4029-9ba7-5bf0f4961002",
+      "type": "iframe",
+      "properties": {
+        "embedUrl": "https://poe.com/",
+        "allowFullScreen": false,
+        "allowScrolling": true,
+        "allowTransparency": false,
+        "allowPayment": false,
+        "allowAutoPlay": false,
+        "allowMicrophone": false,
+        "allowCamera": false,
+        "allowGeolocation": false
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 3
+          },
+          "size": {
+            "width": 8,
+            "height": 2
+          }
+        }
+      }
+    }
+  ],
+  "apps": [
+    {
+      "id": "f6d4883d-84dc-47ca-9bfd-57f4e8f6182f",
+      "name": "Zuul",
+      "url": "https://zuul.cd.je-labs.com/",
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": ""
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "/icons/Zuul.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 9,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "81478f00-0465-4b45-b6b7-8e733c316161",
+      "name": "DataDog",
+      "url": "https://app.datadoghq.eu/",
+      "appearance": {
+        "iconUrl": "https://backstage.eu-west-1.production.jet-internal.com/static/datadog.9bb9d13a..png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://homarr.dev"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "a1fa2387-fb1e-4e12-a3ce-7eddb847224a",
+      "name": "Artifactory",
+      "url": "https://artifactory.cd.je-labs.com/",
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": ""
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/artifactory.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "c0864e3c-ca6c-43b7-93d3-1f0ddd82cad0",
+      "name": "GWT qa80a",
+      "url": "https://watchtower.qa80a.je-labs.com/",
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": ""
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/awx.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "f65aafeb-fc10-45d7-89f6-38c35f3e390c",
+      "name": "BitBucket (Skip)",
+      "url": "https://bitbucket.org/skipthedishes/",
+      "appearance": {
+        "iconUrl": "https://backstage.eu-west-1.production.jet-internal.com/static/bitbucket.c4b030bc..png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://homarr.dev"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "08aab962-0610-4ab2-9c0f-8daab4b13542",
+      "name": "Access Requests",
+      "url": "https://access.justeattakeaway.com/",
+      "appearance": {
+        "iconUrl": "data:image/jpeg;base64,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",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://homarr.dev"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 9,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "a93613f5-fe36-4141-b3c7-df6585b0d5d1",
+      "name": "okta apps",
+      "url": "https://takeaway.okta-emea.com/",
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": ""
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "/icons/JE.jpg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "f96f02c5-9b98-4590-8600-a5beba8c235c",
+      "name": "GitHub",
+      "url": "https://github.je-labs.com/",
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": ""
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "/icons/github.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "358f5203-a067-4f4f-8e25-8fa9525c0a1b",
+      "name": "Confluence ",
+      "url": "https://justeattakeaway.atlassian.net/wiki/home",
+      "appearance": {
+        "iconUrl": "https://backstage.eu-west-1.production.jet-internal.com/static/confluence.2fd24b82..png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://homarr.dev"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "bde30634-e5ea-472f-b468-bb2149f9dc3a",
+      "name": "AVI Concourse",
+      "url": "https://concourse-atc.cd.je-labs.com/",
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": ""
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "/icons/avi.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "87bf22a7-a008-4a7b-a720-ac754d2eafe5",
+      "name": "Open PIs",
+      "url": "https://backstage.eu-west-1.production.jet-internal.com/catalog/default/group/soc/productionissues",
+      "appearance": {
+        "iconUrl": "data:image/jpeg;base64,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qyIDjtPiOIyNGowSrOy3yzmUovb7Z3LLhwjSGW3g1FSjjrZnTvHVq9n4rq6KqhkuDgupfm397eh65Y6u/wCb2OZRaA4q+2txhkY4tgo2i46HuOzsW+0b0HhpZBM+oqKuZpcWPnmc4R5mZSI2eKNhcL2v3xCt6L20sJQpbYQiuSXuQSqzl1pN+IWDimHQ1ET4ZmNkjeLOa4XBH5EHaDvBCzkXoIzgcWgWK0NZJBSMNTSztdZz3hjAMpHyh+rINguBZ1+zuOF05jhijJBLI2MNt12sANuxZaKONKEZOSW12v32OnOTSTexBERSHIREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAReXvA3qMVDUBMii7obzp3Q3nQEqKLuhvOvhqWoCZFD3S1fe6G86AlRR69vOvPdDedATIou6G869CQID2iIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgIKgHYbXsbrCLXWcS03dY7NgBF9/QviID3c96Mm436xbb+K+h7tl2burybe1EQHkX2DJuy36bDb2lA4hwLQ7dtudp3/AOC+IgPjWkMLcpzHj/je69Ouctm2tv3WO7hzoiA+WdmuQd+7ZbLzexfWXuSQ482xtxbo3IiANc4fUG+52Di4G3ZcetSxMdZEQH//2Q==",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://backstage.eu-west-1.production.jet-internal.com/catalog/default/group/soc/productionissues"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 6,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "e9d5bd68-569a-46ca-9dc8-6402479127eb",
+      "name": "BackStage",
+      "url": "https://backstage.eu-west-1.production.jet-internal.com/",
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": ""
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "/icons/backstage.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "599f607d-07fe-4e2c-810e-77e3cbbd4df6",
+      "name": "PagerDuty",
+      "url": "https://justeat.pagerduty.com/",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pagerduty.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://homarr.dev"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "9c6d5832-9108-419d-93cc-df9869270a3f",
+      "name": "Deployments",
+      "url": "https://backstage.eu-west-1.production.jet-internal.com/catalog/default/group/soc/deployments/",
+      "appearance": {
+        "iconUrl": "data:image/png;base64,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",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://backstage.eu-west-1.production.jet-internal.com/catalog/default/group/soc/deployments/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 7,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "e58696e0-7ae9-42b0-bca9-ca2ebc2faacf",
+      "name": "AWS",
+      "url": "https://aws.just-eat.com/",
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": ""
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "/icons/AWS.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 6,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "9ad70282-3e25-466a-b190-7427588eb6e2",
+      "name": "Slack",
+      "url": "https://justeattakeaway.enterprise.slack.com/",
+      "appearance": {
+        "iconUrl": "https://backstage.eu-west-1.production.jet-internal.com/static/slack.61e38773..png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://homarr.dev"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 6,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "c12b2be3-e10a-4503-bad4-35a5cd7c30a7",
+      "name": "Kibana",
+      "url": "https://kibana.pe-prod.je-labs.com/",
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": ""
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kibana.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 7,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "582a25a5-6486-45f5-a903-90e058aee75e",
+      "name": "Grafana",
+      "url": "https://grafana.je-labs.com/",
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": ""
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/grafana.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 8,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "fd13ea78-534e-4932-bf3d-c2706d938d3f",
+      "name": "Workday",
+      "url": "https://wd3.myworkday.com/takeaway/",
+      "appearance": {
+        "iconUrl": "https://backstage.eu-west-1.production.jet-internal.com/static/workday.515e4e0e..png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://homarr.dev"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 7,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "413d78de-07ee-41b0-8648-24bd7d5492a0",
+      "name": "GitLab",
+      "url": "https://git.takeaway.com/",
+      "appearance": {
+        "iconUrl": "https://backstage.eu-west-1.production.jet-internal.com/static/gitlab.70c4400d..png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://homarr.dev"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 8,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "3b69e2cd-b681-432c-a284-2532f84883c7",
+      "name": "Splunk",
+      "url": "https://splunkjusteat.splunkcloud.com/en-GB/app/jet-eit/search",
+      "appearance": {
+        "iconUrl": "data:image/jpeg;base64,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",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://homarr.dev"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "2dcb7fa0-9d26-4cb7-8eed-dde2749bc1ff",
+      "name": "JIRA",
+      "url": "https://justeattakeaway.atlassian.net/jira/your-work",
+      "appearance": {
+        "iconUrl": "https://backstage.eu-west-1.production.jet-internal.com/static/jira.40f5e356..png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://homarr.dev"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    }
+  ],
+  "settings": {
+    "common": {
+      "searchEngine": {
+        "type": "custom",
+        "properties": {
+          "enabled": true,
+          "openInNewTab": true,
+          "template": "https://www.google.com/search?q="
+        }
+      },
+      "defaultConfig": "default"
+    },
+    "customization": {
+      "colors": {
+        "primary": "orange",
+        "secondary": "green",
+        "shade": 7
+      },
+      "layout": {
+        "enabledDocker": false,
+        "enabledLeftSidebar": false,
+        "enabledPing": false,
+        "enabledRightSidebar": false,
+        "enabledSearchbar": true
+      },
+      "customCss": "",
+      "appOpacity": 70,
+      "pageTitle": "SOC",
+      "accessibility": {
+        "disablePingPulse": false
+      }
+    }
+  },
+  "wrappers": [
+    {
+      "id": "default",
+      "position": 0
+    }
+  ]
+}

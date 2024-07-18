@@ -1,0 +1,177 @@
+{
+  "name": "default",
+  "services": [
+    {
+      "id": "8efd24f5-9e6b-441f-980a-26583683c9e6",
+      "type": "Other",
+      "name": "Artifactory",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxhub/dashboard-icons/png/artifactory.png",
+      "url": "https://artifactory.cd.je-labs.com/"
+    },
+    {
+      "id": "ef7d9bda-cee7-4d2b-b320-d766d0fe1e8c",
+      "type": "Other",
+      "name": "Zuul",
+      "icon": "/icons/Zuul.png",
+      "url": "https://zuul.cd.je-labs.com/"
+    },
+    {
+      "id": "c703b696-9c99-441d-aa23-95176ad76466",
+      "type": "Other",
+      "name": "GitHub",
+      "icon": "/icons/github.png",
+      "url": "https://github.je-labs.com/"
+    },
+    {
+      "id": "2ffae29d-6e4a-4589-a56b-a942ed0eeb0f",
+      "type": "Other",
+      "name": "AVI Concourse",
+      "icon": "/icons/avi.png",
+      "url": "https://concourse-atc.cd.je-labs.com/"
+    },
+    {
+      "id": "a940fab6-e33c-4eff-a61f-a17ea16a869f",
+      "type": "Other",
+      "name": "BackStage",
+      "icon": "/icons/backstage.png",
+      "url": "https://backstage.eu-west-1.production.jet-internal.com/"
+    },
+    {
+      "id": "69d497b0-e8ad-4402-8299-705184be8bfb",
+      "type": "Other",
+      "name": "PareDocs",
+      "icon": "/icons/JE.jpg",
+      "url": "https://paredocs.eu-west-1.production.jet-internal.com/"
+    },
+    {
+      "id": "e50909bb-0f09-44d2-9907-69e3e32419a9",
+      "type": "Other",
+      "name": "AWS",
+      "icon": "/icons/AWS.png",
+      "url": "https://aws.just-eat.com/"
+    },
+    {
+      "id": "22f07e57-39f5-44d1-a192-e66a8aff3b7c",
+      "type": "Other",
+      "name": "Kibana",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxhub/dashboard-icons/png/kibana.png",
+      "url": "https://kibana.pe-prod.je-labs.com/"
+    },
+    {
+      "id": "b7ad1048-fba3-425d-a473-6fb6098c7a5d",
+      "type": "Other",
+      "name": "Grafana",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxhub/dashboard-icons/png/grafana.png",
+      "url": "https://grafana.je-labs.com/"
+    },
+    {
+      "id": "04e7040e-fda6-49a9-bbe9-2e1ef52d1597",
+      "type": "Other",
+      "name": "TeamCity",
+      "icon": "/icons/tc.png",
+      "url": "https://ci.je-labs.com/"
+    },
+    {
+      "id": "e16ec18b-a4b3-4b8f-ac95-ea70f9215bdd",
+      "type": "Other",
+      "name": "PE Wiki",
+      "icon": "/icons/confluence.png",
+      "url": "https://justeattakeaway.atlassian.net/wiki/spaces/PE/overview"
+    },
+    {
+      "id": "a4bee097-573f-4c2c-aa0a-51e646b7ba66",
+      "type": "Other",
+      "name": "paredocs",
+      "icon": "https://paredocs.eu-west-1.production.jet-internal.com/images/logo_white.png",
+      "url": "https://paredocs.eu-west-1.production.jet-internal.com/performance-testing/rambo/general-concepts/"
+    },
+    {
+      "id": "5af75be4-fd90-488d-bb09-81784c4ef7f7",
+      "type": "Other",
+      "name": "jira PlatAss",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxhub/dashboard-icons/png/jira.png",
+      "url": "https://justeattakeaway.atlassian.net/jira/software/c/projects/PLATASS/boards/1052/backlog?issueLimit=100"
+    },
+    {
+      "id": "b09749ec-404a-48fd-a343-ead6bc4627f4",
+      "type": "Other",
+      "category": "GWT",
+      "name": "GWT qa80a",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxhub/dashboard-icons/png/awx.png",
+      "url": "https://watchtower.qa80a.je-labs.com/",
+      "openedUrl": ""
+    },
+    {
+      "id": "c9525ea9-4356-4fb0-bc46-e663f8dc1d15",
+      "type": "Other",
+      "category": "GWT",
+      "name": "GWT prod",
+      "icon": "https://watchtower.socprod.je-labs.com/static/assets/logo-login.svg",
+      "url": "https://watchtower.socprod.je-labs.com/"
+    },
+    {
+      "id": "da8cfb15-35d1-4268-8f2c-91cfdf35a838",
+      "type": "Other",
+      "name": "immersivelabs security trainings",
+      "icon": "/favicon.svg",
+      "url": "https://immersivelabs.online/"
+    },
+    {
+      "id": "81359df8-f5f3-400f-9489-fd447ef83d09",
+      "type": "Other",
+      "name": "okta apps",
+      "icon": "/favicon.svg",
+      "url": "https://takeaway.okta-emea.com/"
+    },
+    {
+      "id": "e14bbfa9-1cec-4375-9040-ec60229d8497",
+      "type": "Other",
+      "category": "GWT",
+      "name": "GWT EKS",
+      "icon": "https://watchtower.eu-west-1.sandbox.jet-internal.com/static/media/logo-login.svg",
+      "url": "https://watchtower.eu-west-1.sandbox.jet-internal.com/"
+    },
+    {
+      "id": "26378b7f-aab3-4a17-8a55-fb5daf1addde",
+      "type": "Other",
+      "category": "GWT",
+      "name": "https://watchtower.eu-west-1.staging.jet-internal.com/",
+      "icon": "/favicon.svg",
+      "url": "https://watchtower.eu-west-1.staging.jet-internal.com/"
+    },
+    {
+      "id": "b3560ed8-39a8-4b38-96c8-a5269e0d7b4a",
+      "type": "Other",
+      "name": "miro",
+      "icon": "/favicon.svg",
+      "url": "https://miro.com/app/board/uXjVOLX0j2w=/"
+    }
+  ],
+  "settings": {
+    "searchUrl": "https://www.google.com/search?q="
+  },
+  "modules": {
+    "Calendar": {
+      "enabled": false
+    },
+    "Date": {
+      "enabled": false,
+      "options": {
+        "full": {
+          "value": true
+        }
+      }
+    },
+    "Weather": {
+      "enabled": false,
+      "options": {
+        "location": {
+          "value": "Lviv"
+        }
+      }
+    },
+    "Docker": {
+      "enabled": true
+    }
+  }
+}
